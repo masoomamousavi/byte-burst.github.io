@@ -21,13 +21,13 @@ function About() {
                 <Review />
             </Container>
             <Container fluid className="reason-container">
-                <Container className="w-100">
+                <Container>
                     <h2 className="why" data-aos="fade-in" data-aos-delay="300">
                         Why ByteBurst
                     </h2>
-                    <Row className="about-boxes d-flex align-items-center d-flex justify-content-between w-100" data-aos="fade-up" data-aos-delay="300">
+                    <Row className="about-boxes d-flex align-items-center d-flex justify-content-between" data-aos="fade-up" data-aos-delay="300">
                         {/* First */}
-                        <Col md={7} sm={12} className="about-descript order-2 order-md-1" >
+                        <Col md={7} className="about-descript order-2 order-md-1" >
                             <Row>
                                 <Col>
                                     <h2 className="reason-num">01</h2>
@@ -37,7 +37,7 @@ function About() {
                                 </Col>
                             </Row>
                         </Col>
-                        <Col className="image-container order-1 order-md-2 img-fluid" md={5} sm={12}>
+                        <Col className="image-container order-1 order-md-2 img-fluid" md={5}>
                             <img src="https://cdn.sanity.io/images/r115idoc/production/3cf229fd79c8af562f223b3fffabc1c2c5559de4-1260x1640.png?w=384&q=80&fit=clip&auto=format" alt="" />
                         </Col>
                     </Row>

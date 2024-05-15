@@ -13,3 +13,14 @@
     letter-spacing: 0px;
     line-height: 38px;
 }
+
+
+@media screen and (max-width: 500px) {
+    .rate {
+        font-size: 45px;
+    }
+
+    .rate-text {
+        font-size: 20px;
+    }
+}

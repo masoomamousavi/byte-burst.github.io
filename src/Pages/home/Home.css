@@ -1,5 +1,5 @@
 h1.header {
-    font-size: 12vh;
+    font-size: 60px;
     color: rgb(8, 1, 1);
     font-weight: 500;
 }
@@ -12,4 +12,17 @@ p.descript {
 .project-container1 a {
     text-decoration: none;
     overflow-x: hidden;
+}
+
+@media screen and (max-width: 500px) {
+    h1.header {
+        font-size: 45px;
+        color: rgb(8, 1, 1);
+        font-weight: 500;
+    }
+
+    p.descript {
+        font-size: 20px;
+        font-weight: 400;
+    }
 }

@@ -36,7 +36,7 @@ function Home() {
                         ))}
                     </Row>
                 </Row>
-                <Row fluid className="my-5 py-5">
+                <Row fluid className="my-5 py-3">
                     <Review />
                 </Row>
             </Container>
