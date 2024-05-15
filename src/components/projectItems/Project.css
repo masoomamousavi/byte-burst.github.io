@@ -1,0 +1,48 @@
+.card {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.5s;
+    margin: 25px 0px;
+    height: 430px;
+
+}
+
+.card-text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    text-decoration: none;
+}
+
+.card:hover {
+    scale: 1.05;
+}
+
+.know-more span {
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.know-more:hover {
+    cursor: pointer;
+    color: rgba(55, 74, 78, 0.7);
+    scale: 1.05;
+}
+
+.card-footer p {
+    font-size: 14px;
+    margin: 0px;
+}
+
+.card a {
+    text-decoration: none;
+    color: rgb(40, 39, 39);
+}
+
+@media screen and (max-width: 767px) {
+    .card {
+        height: auto;
+    }
+}

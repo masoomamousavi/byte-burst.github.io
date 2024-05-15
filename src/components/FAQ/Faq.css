@@ -1,0 +1,41 @@
+.faq-container {
+    color: white;
+    background-color: rgb(22, 20, 20) !important;
+    padding: 30px;
+}
+
+.accord-item {
+    background-color: rgb(22, 20, 20) !important;
+    color: white;
+    border-radius: 0px;
+}
+
+.faq {
+    font-size: 30px;
+}
+
+::after {
+    color: rgb(238, 236, 236) !important;
+}
+
+.accordion-button {
+    background-color: rgb(22, 20, 20) !important;
+    color: rgb(240, 237, 237) !important;
+    height: auto !important;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 18px;
+}
+
+.accordion-button1 {
+    border-bottom: 2px solid rgb(53, 52, 52) !important;
+}
+
+.accordion-collapse {
+    font-size: 17px;
+    color: rgb(180, 177, 177);
+}
+
+.accordion-item {
+    border: none;
+}

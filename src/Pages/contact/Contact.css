@@ -1,0 +1,77 @@
+.contact-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.contact-img {
+    height: 450px;
+    padding: 0px !important;
+}
+
+.contact-container1 {
+    margin-top: 60px;
+    display: flex;
+    align-items: center !;
+    justify-content: center !important;
+}
+
+.contact-head {
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.contact-text {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+
+
+
+.icons .icon {
+    font-size: 23px;
+}
+
+
+.email1 {
+    font-size: 22px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid rgb(198, 196, 196);
+}
+
+.client-job h3 {
+    color: rgb(117, 116, 116);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.client-job a {
+    text-decoration: none;
+}
+
+.client-job h2 {
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+    padding-bottom: 7px;
+    width: 60%;
+    border-bottom: 1px solid rgb(185, 182, 182);
+}
+
+
+@media screen and (max-width: 992px) {
+    .client-job {
+        margin: 10px 0px;
+    }
+
+    .contact-text {
+        margin-bottom: 30px;
+    }
+
+    .client-job h2 {
+        font-size: 20px;
+        width: 50%;
+        border-bottom: 1px solid rgb(185, 182, 182);
+    }
+}

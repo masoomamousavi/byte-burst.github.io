@@ -1,0 +1,63 @@
+.header-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-header {
+    height: 80vh;
+}
+
+.pr-name {
+    font-size: 8vh;
+    color: black;
+    font-weight: 700;
+}
+
+.pr-subtitle {
+    font-size: 5vh;
+    color: rgb(23, 23, 23);
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+.project-name {
+    background-color: rgba(113, 133, 150, 0.7);
+    padding-top: 80px;
+    padding-bottom: 90px !important;
+}
+
+
+div.description {
+    margin: 50px 0px;
+}
+
+.photo {
+    height: 150px;
+    width: 200px;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.developer1 {
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width: 767px) {
+    .card {
+        height: auto;
+    }
+
+    .developer1 {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}

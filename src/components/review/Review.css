@@ -1,0 +1,15 @@
+.rate {
+    font-size: 15vh;
+    color: rgb(12, 12, 12);
+    font-weight: 500;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(53, 53, 53);
+}
+
+.rate-text {
+    font-size: 4vh;
+    color: rgb(17, 16, 16);
+    font-weight: 600;
+    letter-spacing: 0px;
+    line-height: 38px;
+}

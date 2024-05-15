@@ -1,0 +1,70 @@
+.service-tit {
+    font-size: 47px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    margin-top: 110px;
+}
+
+.service-text {
+    font-size: 23px;
+
+}
+
+.service-text1 {
+    font-size: 18px;
+}
+
+.second-col {
+    margin-top: 100px;
+}
+
+.service-tit1 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.service-item {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.service-descript {
+    height: 410px;
+}
+
+.service-img img {
+    height: 420px;
+    object-fit: fill;
+    width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+
+    .service-text1 {
+        font-size: 16px;
+    }
+
+    .service-tit1 {
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    .service-item {
+        font-size: 17px;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .service-img img {
+        height: auto;
+    }
+
+    .second-col {
+        margin-top: 60px;
+    }
+
+    .service-descript {
+        height: auto;
+    }
+}

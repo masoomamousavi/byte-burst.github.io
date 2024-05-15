@@ -1,0 +1,15 @@
+h1.header {
+    font-size: 12vh;
+    color: rgb(8, 1, 1);
+    font-weight: 500;
+}
+
+p.descript {
+    font-size: 4vh;
+    font-weight: 400;
+}
+
+.project-container1 a {
+    text-decoration: none;
+    overflow-x: hidden;
+}

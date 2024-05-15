@@ -1,0 +1,71 @@
+.navbar-brand a {
+    color: rgb(32, 23, 54);
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 25px;
+    transition: all 0.3s ease;
+    text-shadow: 2px 2px 5px rgb(231, 230, 237);
+    font-family: Fredoka, sans-serif;
+}
+
+
+
+.navbar-brand a .logo:hover {
+    text-shadow: 2px 2px 4px rgb(244, 240, 240);
+    transform: scale(1.1);
+    color: rgb(23, 32, 41);
+}
+
+.offcanvas-title h4 {
+    text-align: center !important;
+}
+
+.my-nav {
+    background-color: #f28d3a;
+    transition: background-color 1s ease;
+}
+
+.my-nav.scrolled {
+    background-color: rgb(243, 211, 196);
+}
+
+
+.nav-bar {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(20, 20, 20);
+    padding: 0px 20px;
+}
+
+.active {
+    border-bottom: 1px solid rgb(79, 79, 79);
+}
+
+
+@media screen and (max-width: 767px) {
+    .offcanvas-body {
+        background-color: #f28d3a;
+    }
+
+    .offcanvas-header {
+        background-color: rgb(227, 225, 225) !important;
+    }
+
+    .offcanvas-title {
+        font-weight: 800 !important;
+        color: #d06712 !important;
+    }
+
+    .nav-link {
+        width: 95px;
+        color: rgb(68, 67, 67) !important;
+        font-size: 18px !important;
+        margin: 7px 0px;
+        font-weight: 600;
+    }
+
+    .active {
+        border-bottom: 1px solid rgb(32, 32, 32);
+
+    }
+}
